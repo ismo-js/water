@@ -21,12 +21,12 @@ Functions.
 
 #### 1.1 Objects are also functions
 ```wa
-\obj
-  \prop1 .val1
-  \prop2 .val2
-  \valLs (
-    obj prop1
-    obj prop2
+\.obj
+  \.prop1 .val1
+  \.prop2 .val2
+  \.valLs (
+    obj.prop1
+    obj.prop2
   )
 ```
 
