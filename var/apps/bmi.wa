@@ -1,6 +1,6 @@
-\.calc \a \b ~(a / (b / 100) ** 2)
+=.calc ^:\ \a \b ~(a / (b / 100) ** 2)
 #(
-  \.weight rangeIn 75 35 150
-  \.height rangeIn 175 125 250
-  \.index ^calc <comb (weight height)
+  =.weight ^:\ rangeIn 75 35 150
+  =.height ^:\ rangeIn 175 125 250
+  =.index ^:\ ^calc <comb (weight height)
 )

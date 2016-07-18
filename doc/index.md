@@ -7,13 +7,16 @@
 ### 1. Everything's a stream
 Streams.
 
-#### 1.1 Values are strings
+#### 1.1 Everything's a value
+No bullshit statements.
+
+#### 1.2 Values are strings
 `.abc` is a string. `.12` is also a string. No numbers, no bullshit types.
 
-#### 1.2 Strings are Lists
+#### 1.3 Strings are Lists
 `.1` is `(-- -- ++ ++ -- -- -- ++)`.
 
-#### 1.3 Lists are streams
+#### 1.4 Lists are streams
 Streams.
 
 ### 2. Streams are functions
