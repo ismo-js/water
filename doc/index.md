@@ -37,28 +37,28 @@ ABC
 
 ## Syntax
 JavaScript | Water | Description
---- |
-|
-|| ***Literals***
+ --- | --- | ---
+ |
+ | | ***Literals***
 `"normalString"` | `@'normalString`
 `"$þ€¢íæł cħ@r $ŧrìng"` | `@'{$þ€¢íæł ¢ħ@r $ŧrìng}`
 *No distinction between chars and strings* | `'a`
-|
+ |
 `0xabc.123` | `0x'abc.123`
 `123.456` | `0'123.456`
 `0o707.123` | `0o'707.123`
 `0b101` | `0b'101`
 `true`/`false` | `++`/`--`
-|
+ |
 `[1, 2]` | `(1 2)`
-|
-|| ***Objects***
+ |
+ | | ***Objects***
 `obj.normalProp` | `obj'normalProp`
 `obj["$þ€¢íæł cħ@r þrøþ"]` | `obj'{$þ€¢íæł cħ@r þrøþ}`
-|
-|| ***Functions***
+ |
+ | | ***Functions***
 `(x, y)=> x(y, y)` | `\x \y x y y`
-|
-|| ***Operations***
-` `x is ${x} and that's fine.` ` | `@('{x is } x '{ and that's fine.})`
+ |
+ | | ***Operations***
+`[BACKTICK]x is ${x} and that's fine.[BACKTICK]` | `@('{x is } x '{ and that's fine.})`
 `1 + 2 * 3` | `0'(1 + 2 * 3)` | Math
