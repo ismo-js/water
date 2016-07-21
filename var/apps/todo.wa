@@ -1,5 +1,5 @@
 #(
-  \.next textIn .{Clean Up!}
-  \.doNext ev *
-  \.items all <sample next doNext
+  \'next textIn '{Clean Up!}
+  \'doNext ev *
+  \'items all <sample next doNext
 )
